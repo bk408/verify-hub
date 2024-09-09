@@ -3,7 +3,7 @@
 const bcrypt = require("bcrypt")
 const UserModal = require("../models/user");
 
-
+// signup functionality
 const signup = async (req, res) => {
     try {
       const { name, email, password } = req.body;
